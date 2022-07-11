@@ -1,5 +1,10 @@
+import { AiOutlineSearch } from 'react-icons/ai';
+
 export default function Navbar() {
   return (
-    <div>Navbar</div>
+    <nav>
+      <h1>File Browser</h1>
+      <input type='text' />
+    </nav>
   )
 }
