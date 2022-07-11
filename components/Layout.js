@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import styles from "../styles/Layout.module.css";
 import Sidebar from "./Sidebar";
 import Files from "./Files";
+import Preview from "./Preview";
 
 export default function Layout() {
   return (
@@ -10,7 +11,7 @@ export default function Layout() {
       <div className={styles.container}>
       <Sidebar/>
       <Files/>
-      <Sidebar/>
+      <Preview />
       </div>
     </div>
   )
