@@ -4,6 +4,10 @@
   background-color: red;
 }
 
+.container h1 {
+  margin: 20px;
+}
+
 .inputBox {
   margin: 20px;
 }
