@@ -1,5 +1,5 @@
 import { AiOutlineSearch } from 'react-icons/ai';
-import styles from '../styles/Navbar.module.css'
+import styles from '../styles/Navbar.module.css';
 
 export default function Navbar() {
   const searchIcon = <AiOutlineSearch />

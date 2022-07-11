@@ -1,11 +1,16 @@
 import Navbar from "./Navbar";
-import Body from "./Body";
+import styles from "../styles/Layout.module.css";
+import Sidebar from "./Sidebar";
 
 export default function Layout() {
   return (
-    <div>
+    <div className={styles.main_container}>
       <Navbar/>
-      <Body />
+      <div className={styles.container}>
+      <Sidebar/>
+      <Sidebar/>
+      <Sidebar/>
+      </div>
     </div>
   )
 }

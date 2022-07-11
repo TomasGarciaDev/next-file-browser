@@ -1,0 +1,12 @@
+.main_container {
+  border-style: solid;
+  border-color: rgb(241, 241, 241);
+  height: 100vh;
+  padding-bottom: 80px;
+}
+
+.container {
+  display: grid;
+  background-color: red;
+  grid-template-columns: 1fr 2fr 1fr;
+}
