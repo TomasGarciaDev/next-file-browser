@@ -1,11 +1,18 @@
 .main_container {
   border-style: solid;
-  border-color: rgb(241, 241, 241);
-  height: 400vh;
-  padding-bottom: 80px;
+  border-color: rgb(232, 232, 232);
+  height: 100vh;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container_files {
+  display: flex;
+  margin: 6px auto;
+  max-width: 960px;
+  padding: 0;
+
 }

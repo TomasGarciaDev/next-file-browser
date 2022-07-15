@@ -4,13 +4,14 @@ import Sidebar from "./Sidebar";
 import Files from "./Files";
 import Preview from "./Preview";
 
-export default function Layout() {
+export default function Layout({children}) {
   return (
     <div className={styles.main_container}>
       <Navbar/>
       <div className={styles.container}>
       <Sidebar/>
-      <Files/>
+      <div className={styles.container_files}>{children}</div>
+      {/* <Files/> */}
       <Preview />
       </div>
     </div>

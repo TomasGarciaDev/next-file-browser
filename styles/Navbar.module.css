@@ -11,4 +11,6 @@
 
 .inputBox {
   margin: 20px;
+  border-color: rgb(241, 241, 241);
+  box-shadow: 0;
 }

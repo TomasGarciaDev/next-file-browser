@@ -1,7 +1,9 @@
 import styles from "../styles/Files.module.css"
 
-export default function Files() {
+export default function Files({file}) {
   return (
-    <div className={styles.container}>Files</div>
+    <div className={styles.container}>{file.id}</div>
   )
 }
+
+
