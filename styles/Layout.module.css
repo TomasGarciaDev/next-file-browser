@@ -11,8 +11,10 @@
 
 .container_files {
   display: flex;
-  margin: 6px auto;
+  grid-template-columns: 1fr 1fr 1fr;
+ /* margin: 6px auto;
   max-width: 960px;
   padding: 0;
+  height: auto; */
 
 }

@@ -2,14 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
-import Files from '../components/Files'
+import FileItem from '../components/FileItem'
 
-export default function Home({folders}) {
+export default function Home({pictures}) {
   
   return (
     <Layout>
-      {folders.map(folder => (
-        <Files file={folder} />
+      {pictures.map(picture => (
+        <FileItem picture={picture} key={picture.id}/>
       )
       )}
     </Layout>
@@ -18,13 +18,13 @@ export default function Home({folders}) {
 
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api')
+  const res = await fetch('http://localhost:3000/api/pictures')
 
-  const folders = await res.json()
+  const pictures = await res.json()
 
   return {
     props: {
-      folders
+      pictures
     }
   }
 }

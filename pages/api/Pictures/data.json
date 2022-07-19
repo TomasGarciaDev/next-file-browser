@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "id": "1",
+      "name": "Spring",
+      "image": "/images/spring.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Summer"
+    },
+    {
+      "id": "3",
+      "name": "Autumn"
+    },
+    {
+      "id": "4",
+      "name": "Winter"
+    }
+  ]
+}
